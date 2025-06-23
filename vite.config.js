@@ -2,5 +2,6 @@ import { defineConfig } from 'vite';
 import injectHTML from 'vite-plugin-html-inject';
 
 export default defineConfig({
-    plugins: [injectHTML()],
+  base: '/test-layout-designer/',
+  plugins: [injectHTML()],
 });
